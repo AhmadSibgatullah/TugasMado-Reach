@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Tugas6 from './Tugas6/Tugas6';
+import Tugas7 from './Tugas7/Tugas7';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Tugas6/>
+    <Tugas7 Name="Ahmad Sibgatullah L"Class="12"Email="ahmad851133@smk.balajar.id"/>
+  
+    </>
   );
 }
 
